@@ -1,6 +1,6 @@
 //const Airtable = require('airtable');
 
-var base = new Airtable({apiKey: 'patjitzhNSkmNMNdy.8d02e26eafa47c6fe802a0bdf0c4f75f960f0c1bfb2848e8b0146b64ea203352'}).base('apphT3pxr5fwUWpO0');
+var base = new Airtable({apiKey: '************'}).base('***********');
 
 const table = base('Table 1');
 
