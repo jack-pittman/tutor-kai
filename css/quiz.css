@@ -1,0 +1,238 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6;
+    --dark-purple: #5154ba;
+    --nice-magenta: #ff00ff; /* Adjust this to your preferred magenta color */
+}
+
+
+
+h1 {
+    font-family: 'Varela';
+    font-size: 60px; 
+    color: var(--dark-purple);
+    text-align: center; 
+}
+
+.start-button-container {
+    display: flex; 
+    justify-content: center;
+
+    margin-top: 50px; 
+    /* margin-bottom: 20px; */
+    padding: 20px; 
+}
+.submit-button-container {
+    margin-left: auto; 
+    margin-right:auto; 
+    margin-top: 0px; 
+    width: 200px; 
+}
+#submitButton {
+    font-size: 30px; 
+    text-align: center;
+
+    margin-top: 20px; 
+}
+#submitHeader {
+    font-size: 40px; 
+}
+#submitSubHeader {
+    font-size: 20px; 
+    color: var(--medium-purple);
+    color: gray; 
+    
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+.btn-primary {
+    font-family: 'Varela'; 
+    font-size: 30px; 
+
+    color: white; 
+    background-color:var(--dark-purple);
+
+    border-radius: 60px;
+    border: 2px solid var(--dark-purple);
+    
+    /* margin-top: 100px;  */
+}
+.submit-button-container .btn-primary {
+    /* background-image: url("../media/images/backgrounds/purple.png"); 
+    background-size: cover;  */
+
+    /* border-color: transparent;  */
+
+}
+
+.btn-primary:hover {
+    background-color: var(--medium-purple);
+    border-color: var(--medium-purple);
+
+
+    border-color: transparent; 
+   
+
+    
+}
+
+.quiz-app-container {
+    background-color: white; 
+
+    border: 1px solid var(--dark-purple);
+    border-radius: 30px; 
+
+    margin-right: 20%; 
+    margin-left: 20%; 
+
+    padding: 30px;
+}
+.quiz-app-container h3 {
+    font-family: 'Varela';
+    font-size: 25px;
+
+    /* color: var(--light-purple);  */
+    color: var(--dark-purple); 
+    color: gray; 
+    text-align: center; 
+
+    /* font-weight: bold;  */
+
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    /* margin-bottom: 20px;  */
+    /* padding: 20px;  */
+}
+#startImage {
+    width: 200px; 
+    height: 100px; 
+    margin-top: 0px; 
+    /* margin-bottom: 80px;  */
+
+    /* border-radius: 30px;  */
+
+    /* Crop the image to fit the container */
+    object-fit: cover; /* Maintains aspect ratio, crops to fill */
+    object-position: center bottom; /* Aligns the bottom of the image */
+
+
+    /* Hide any overflowing content */
+    overflow: hidden;
+}
+#chart2 {
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+}
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+
+    margin-top: 25px; 
+    margin-bottom: 30px;
+}
+
+.options-list .btn-light {
+    color: white; 
+    font-family: 'Varela';
+    background-color: var(--light-purple);
+
+    text-align: left;
+
+    border-radius: 30px;
+    border: 3px solid white;
+
+    padding: 10px; 
+    margin-right: 50px; 
+    margin-left: 50px; 
+}
+.btn-light h5 {
+    font-size: 23px; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+}
+
+.options-list .btn-light:hover {
+    color: white; 
+
+    background-color: var(--light-purple);
+
+    border: 3px solid var(--light-purple);
+
+}
+img {
+    height: 300px; 
+    display: block; /* Change the image to a block element */
+    margin: 0 auto; /* Set left and right margins to auto for centering */
+    margin-top: 20px; 
+    /* margin-bottom: 100px;  */
+
+    border-radius: 30px;
+}
+
+
+#questionImage {
+    /* border: solid 1px var(--dark-purple); */
+}
+
+#gray-graphs {
+    width: 90%; 
+}
+
+@media (max-width:1000px) {
+    img {
+        /* width: 100%; */
+        height: 150px;   
+    } 
+    .options-list {
+        gap: 0px; 
+    }
+    .options-list .btn-light {
+        padding: 10px; 
+        margin-right: 5px; 
+        margin-left: 5px; 
+    }
+    .btn-light h5 {
+        font-size: 15px; 
+    }
+    .quiz-app-container {
+        margin-right: 0px; 
+        margin-left: 0px; 
+
+        padding: 20px;
+    }
+    .quiz-app-container h3 {
+        font-family: 'Varela';
+        font-size: 15px;
+    
+        /* color: var(--light-purple);  */
+        color: var(--dark-purple); 
+        text-align: center; 
+    
+        /* font-weight: bold;  */
+    
+        margin-top: 0px; 
+        padding: 20px; 
+    }
+    .btn-primary {
+        font-size: 30px; 
+    }
+    .btn-primary {
+        margin-top: 10px; 
+    }
+    #chart2 {
+        width: 100%; 
+    }
+    #submitHeader {
+        margin-bottom: 0px; 
+
+    }
+    #submitSubHeader {
+        margin-top: 20px; 
+        /* margin-bottom: 20px;  */
+    }
+}

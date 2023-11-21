@@ -1,0 +1,76 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+
+.hero-container {
+    background-image: url('../media/images/backgrounds/purple.png');
+    background-size: 100%; 
+    background-repeat: no-repeat;  
+
+    border: 1px solid var(--dark-purple);
+
+    border-radius: 30px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+    margin-top: 10px;
+
+    padding: 100px; 
+}
+.hero-container-quiz {
+    background-image: url('../media/images/backgrounds/purple.png');
+    background-size: 150%; 
+    background-repeat: no-repeat;  
+
+    border: 1px solid var(--dark-purple);
+
+    border-radius: 30px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+    margin-top: 10px;
+
+    padding: 50px; 
+}
+.hero-container h1 {
+    font-family: 'Varela'; 
+    /* color: black;  */
+    color: var(--dark-purple);
+
+    /* font-weight: bold;  */
+
+}
+.hero-container p {
+    font-family: 'Varela';
+    font-size: 20px; 
+    color: var(--medium-purple); 
+    /* color: white;  */
+
+    /* add font stroke */
+    /* text-shadow: 1px 1px 1px white; */
+    /* color:white;  */
+
+    margin-bottom: 13px; 
+}
+
+@media (max-width:1000px) {
+    .hero-container {
+        background-size: 300%; 
+        padding: 40px; 
+    }
+    .hero-container h1 {
+        font-size: 40px; 
+    }
+    .hero-container p {
+        font-size: 30px; 
+    }
+    .hero-container-quiz {
+        background-size: 200%; 
+        background-repeat: repeat; 
+        padding: 10px; 
+        background-size: 300%; 
+    }
+}

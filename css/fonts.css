@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Baloo'; /* Choose a custom name for your font */
+    src: url('../media/fonts/BalooThambi-Regular.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+@font-face {
+    font-family: 'Varela'; /* Choose a custom name for your font */
+    src: url('../media/fonts/VarelaRound-Regular.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+@font-face {
+    font-family: 'Fira Medium'; /* Choose a custom name for your font */
+    src: url('../media/fonts/FiraSans-Medium.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+@font-face {
+    font-family: 'Fira Regular'; /* Choose a custom name for your font */
+    src: url('../media/fonts/FiraSans-Regular.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+@font-face {
+    font-family: 'MPlus'; /* Choose a custom name for your font */
+    src: url('../media/fonts/MPLUSRounded1c-Medium.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}
+@font-face {
+    font-family: 'MPlus Bold'; /* Choose a custom name for your font */
+    src: url('../media/fonts/MPLUSRounded1c-Bold.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2, eot for compatibility */
+}

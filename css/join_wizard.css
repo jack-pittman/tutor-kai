@@ -1,0 +1,102 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+.form-container {
+    margin-right: 100px; 
+    margin-left: 100px; 
+/* 
+    display: flex; 
+    flex-wrap: wrap;  */
+    /* align-items: center;  */
+}
+
+label {
+    font-family: 'Varela';
+}
+
+/* OBJECT STYLES */
+.form-label {
+    color: var(--dark-purple);
+    font-size: 16px; 
+}
+.form-control {
+    font-family: 'Varela';
+    color: white; 
+    background-color: var(--light-purple);
+
+    border: solid 2px var(--light-purple);
+    border-radius: 30px; 
+}
+/* ID STYLES */
+#nameField {
+    margin-bottom: 20px;
+}
+
+#emailField {
+    margin-bottom: 50px; 
+}
+
+#passField {
+    margin-bottom: 10px;
+}
+
+#passwordHelpBlock {
+    font-family: 'Varela';
+    font-size: 12px; 
+
+    color: lightgray; 
+}
+
+#nameField::placeholder, #emailField::placeholder {
+    font-family: 'Varela';
+    color: lightgray; 
+}
+
+#smallCenteredLogo {
+    width: 100px; 
+    height: 90px; 
+
+    display: block; 
+    margin: 0 auto; 
+
+    margin-top: 40px; 
+}
+.form-container .btn-primary {
+    font-family: 'Varela'; 
+
+    /* color: var(--dark-purple); */
+    color: white;
+    /* background-color:var(--medium-purple); */
+    background-color: var(--dark-purple);
+
+
+    border-radius: 30px;
+    border: 2px solid var(--dark-purple);
+
+    /* margin-top: 300px; */
+
+    display: block; 
+    /* margin: auto;  */
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px; 
+    margin-bottom: 0px; 
+}
+.form-container .btn-primary:hover {
+    /* color: var(--medium-purple);  */
+    color: white;
+
+    /* background-color: transparent; */
+    background-color: var(--medium-purple);
+
+    border: 2px solid var(--medium-purple);
+
+}
+
+#noMargin {
+    margin: 0px; 
+    /* color: var(--light-purple); */
+}

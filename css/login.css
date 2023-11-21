@@ -1,0 +1,34 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+#emailFieldLogin {
+    margin-bottom: 20px; 
+}
+
+#loginButton {
+
+    margin-left: 0px; 
+    margin-right: auto;  
+
+    margin-top: 30px; 
+}
+
+#emailFieldLogin::placeholder, #passFieldLogin::placeholder {
+    font-family: 'Varela';
+    /* color: var(--dark-purple);  */
+    color: mediumslateblue;
+}
+
+#loginHereText {
+    color: var(--medium-purple); 
+    text-decoration:underline;
+}
+#freeText {
+    font-family: 'Varela';
+
+    color: var(--dark-purple);
+    margin-left: 40px; 
+}

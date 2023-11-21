@@ -1,0 +1,53 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+    --cloud-white: #f7f7f7;
+}
+.shadow-box-start {
+    background-color: var(--cloud-white);
+    border-radius: 30px; 
+    padding: 0px; 
+}
+.shadow-box-quiz {
+    background-color: var(--cloud-white);
+    border-radius: 30px; 
+    padding: 20px; 
+
+    /* border: solid 3px lightgray;  */
+}
+.shadow-box-submit {
+    background-color: var(--cloud-white);
+    border-radius: 30px; 
+    padding: 20px; 
+}
+
+
+
+.shadow-box-join {
+    background-color: var(--cloud-white);
+    border-radius: 30px; 
+    padding: 30px; 
+}
+
+.shadow-box-login {
+    background-color: var(--cloud-white);
+    border-radius: 30px; 
+    padding: 20px; 
+}
+
+
+
+.shadow-box {
+    /* Set the background color to #F7F7F7 */
+    background-color: #F7F7F7;
+    /* Apply a radial gradient for the background with reversed colors */
+    background: radial-gradient(circle at center, #FFFFFF, #F7F7F7);
+    /* Adjust other necessary styles */
+    border-radius: 30px; /* Or the desired border-radius */
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #FFFFFF;
+    padding: 20px; /* Adjust padding as needed */
+    /* Additional styles */
+    /* ... */
+}
+

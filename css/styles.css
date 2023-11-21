@@ -1,0 +1,127 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* BASIC OBJECTS */
+
+.content-container {
+    border-radius: 30px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+    margin-top: 0px;
+
+    padding: 5px; 
+}
+.white-rounded-box {
+    background-color: white; 
+    border-radius: 30px; 
+
+    margin-right: 20%; 
+    margin-left: 20%; 
+
+    padding: 30px;
+}
+
+.stripe {
+    background-image: linear-gradient(to right, white , #aeb8ff);
+    padding: 20px; 
+    margin: 0px; 
+}
+.stripe-small {
+    background-image: linear-gradient(to right, white , #aeb8ff);
+    padding: 5px; 
+    margin: 0px; 
+}
+
+#white-text {
+    color: white; 
+}
+#copyright-text {
+    margin-top: 30px; 
+    font-family: 'Varela';
+    text-align: center; 
+    color: var(--light-purple);
+}
+#cur-page {
+    color: var(--light-purple);
+    
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--medium-purple);
+    /* text-decoration-color: #f3f4ff; */
+}
+#right-align {
+    text-align: right; 
+}
+
+
+.white-rounded-box h3 {
+    font-family: 'Varela';
+    font-size: 25px;
+
+    /* color: var(--light-purple);  */
+    color: var(--dark-purple); 
+    text-align: center; 
+
+    /* font-weight: bold;  */
+
+    margin-top: 0px; 
+    padding: 20px; 
+}
+.white-rounded-box h5 {
+    font-family: 'Varela';
+    font-size: 20px;
+    font-weight: bold; 
+
+    /* color: var(--light-purple);  */
+    /* color: gray;  */
+    text-align: center; 
+    margin: 5px; 
+}
+
+#space-right {
+    margin-right: 200px; 
+}
+
+@media (max-width:1000px) {
+    .body {
+      margin-right: 0%; 
+      margin-left: 0%; 
+    }
+
+    .white-rounded-box {
+        margin-right: 0px; 
+        margin-left: 0px; 
+
+        padding: 10px;
+    }
+    #headroom {
+        text-align: center; 
+        margin-left: 0px; 
+    }
+    .form-container {
+        margin-right: 0px; 
+        margin-left: 0px; 
+    }
+    #space-right {
+        margin-right: 0; 
+    }    
+    .text-container {
+        margin-bottom: 30px; 
+    }
+}
+
+/* BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP - BOOTSTRAP -  */
+
+/* FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM - FORM */
+
+/* LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE - LOGIN PAGE */

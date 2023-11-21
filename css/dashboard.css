@@ -1,0 +1,175 @@
+
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+.rounded-purple-box {
+    border-radius: 30px; 
+    border: 3px solid var(--light-purple);
+
+    margin-right: 50px; 
+    margin-left: 50px; 
+}
+
+.flex-container-dashboard {
+
+    /* background-image: linear-gradient(to right, white , #aeb8ff); */
+
+    border-radius: 30px; 
+    margin-right: 50px; 
+    margin-left: 50px; 
+
+    margin-top: 30px;
+
+    padding: 20px; 
+}
+
+.flex-container-dashboard {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+}
+
+.flex-box-dashboard {
+    flex-basis: 47%;
+
+    /* margin-left: 80px;  */
+}
+
+#chart {
+    width: 100%; 
+}
+#chart-header {
+    color: var(--medium-purple);
+    font-family: 'Baloo';
+}
+#chart-description {
+    color: var(--light-purple);
+    /* color: var(--medium-purple); */
+}
+#highlight-text {
+    color: #feaf00;
+}
+
+.flex-container-dashboard h1{
+    font-family: 'Varela'; 
+    /* color: black;  */
+    color: var(--dark-purple);
+
+    /* margin-left: 0px;  */
+
+}
+.hero-container-dashboard {
+    background-image: url('../media/images/backgrounds/purple2.png');
+    /* background-image: linear-gradient(to right, white , var(--dark-purple)); */
+
+    border-radius: 30px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+    margin-top: 10px;
+
+    padding: 100px; 
+}
+.hero-container-dashboard h1 {
+    font-family: 'Varela';
+    color: var(--dark-purple);
+    /* color: white;  */
+
+    font-size: 50px; 
+}
+.hero-container-dashboard p, .flex-container-dashboard p {
+    font-family: 'Varela';
+    font-size: 20px; 
+    color: var(--dark-purple); 
+    /* color:white;  */
+
+    margin-bottom: 13px; 
+}
+
+#dashboard-menu {
+    margin-right: 10px; 
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+#graduation-logo {
+    margin-right: 15px; 
+    margin-bottom: 20px; 
+}
+/* MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES MY COURSES  */
+
+.my-courses {
+    margin-top: 30px; 
+    margin-bottom: 50px; 
+}
+
+.course-list-header-container {
+    color: var(--dark-purple); 
+    font-family: 'Baloo';
+    font-size: 30px; 
+    text-align: left; 
+
+    margin-left: 80px; 
+}
+.course-container {
+    /* background-image: linear-gradient(to right, white , var(--medium-purple)); */
+    background-color: var(--light-purple);
+
+    border-radius: 30px; 
+    border: 3px solid white; 
+
+    margin-right: 50px; 
+    margin-left: 50px; 
+
+    margin-top: 20px;
+
+    padding: 40px; 
+
+    color: white;
+    font-family: 'Varela';
+}
+.course-container:hover {
+    /* background-image: linear-gradient(to right, white , var(--light-purple)); */
+    /* background-color: var(--medium-purple); */
+
+    border: 3px solid var(--light-purple);
+
+    /* color: var(--light-purple); */
+    /* font-family: 'Varela'; */
+}
+.new-course-container {
+    /* background-image: linear-gradient(to right, white , var(--medium-purple)); */
+    border: 3px solid var(--light-purple);
+
+    border-radius: 30px; 
+    margin-right: 50px; 
+    margin-left: 50px; 
+
+    margin-top: 20px;
+
+    padding: 20px; 
+
+    color: var(--light-purple);
+    font-family: 'Varela';
+    font-size: 30px; 
+    text-align: center; 
+}
+
+#smallCenteredLogo {
+    width: 200px; 
+    height: 180px; 
+
+    display: block; 
+    margin: 0 auto; 
+
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+@media (max-width:1000px) {
+    .flex-box-dashboard {
+        flex-basis: 100%;
+    }
+}

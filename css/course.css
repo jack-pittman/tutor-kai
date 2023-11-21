@@ -1,0 +1,79 @@
+:root {
+    --light-purple: #aeb8ff;
+    --medium-purple: #8683f6; 
+    --dark-purple: #5154ba;
+}
+
+.hero-container-course {
+    background-image: url('../media/images/backgrounds/purple2.png');
+    /* background-image: linear-gradient(to right, white, var(--dark-purple)); */
+
+    border-radius: 30px; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+    margin-top: 10px;
+
+    padding: 50px;
+}
+
+.hero-container-course h1 {
+    font-family: 'Varela';
+    color: var(--dark-purple);
+    font-size: 50px; 
+
+    margin-left: 50px; 
+}
+
+.content-container-course {
+
+    background-color: #f7f7f7;
+    border: solid 1px #b2b2b2;
+    border-radius: 30px;
+
+    margin-right: 20px; 
+    margin-left: 20px; 
+    margin-top: 30px;
+
+    padding: 50px;
+}
+
+.content-container-course h1 {
+    font-family: 'Varela';
+    color: var(--dark-purple);
+    font-size: 50px; 
+}
+.content-container-course h5 {
+    font-family: 'Varela';
+    color: var(--dark-purple);
+    font-size: 30px;
+}
+.content-container-course p {
+    font-family: 'Varela';
+    color: var(--light-purple);
+    font-size: 20px;
+}
+.content-container-course a {
+    font-family: 'Varela';
+    color: var(--light-purple);
+    font-size: 20px;
+
+    margin-left: 50px; 
+}
+.content-container-course a:hover {
+    font-family: 'Varela';
+    color: var(--medium-purple);
+    font-size: 20px;
+}
+
+#courseLogo {
+    width: 60px; 
+    height: 60px;
+
+    margin-left: auto; 
+    margin-right: 50px; 
+}
+
+table {
+    margin-left: 50px; 
+}
